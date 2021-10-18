@@ -1,0 +1,29 @@
+p {
+    font-size: 0.85rem;
+}
+h5 {
+    text-align: center;
+}
+
+.card {
+    background: rgb(31, 28, 28, 0.7) !important;
+}
+
+.card-title {
+    color: white;
+}
+
+.card-columns {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.opaco {
+    opacity: 0 ;
+    transition: all 1.5s;
+}
+
+.invisible {
+    opacity: 0 !important;
+}

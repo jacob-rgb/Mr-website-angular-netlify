@@ -1,0 +1,98 @@
+<div class="extramargen"></div>
+<app-carrusel></app-carrusel>
+
+<div class="container"  (window:scroll)="mostrar? mostrarcontent() : ''">
+    <div class="row mb-5 nm justify-content-center">
+           <div class="textWrapper textWrapper-Iz mostrar">
+              <div class="p-Box">
+                <p>Manuel Rivera <b>nació en 1927 en Granada</b>. Tras una primera formación académica conoció el
+                  informalismo y los movimientos artísticos mas
+                  avanzados <b>lo que le llevó a una búsqueda</b> en la que
+                  acabó <b>sustituyendo los materiales pictóricos
+                  tradicionales</b> de óleo y lienzo <b> por otro material al
+                  descubrir en 1956 la tela metálica</b> y sus
+                  posibilidades estéticas, <b>convirtiéndola en su seña de
+                  identidad.</b>
+                  </p>
+                  <p>
+                    En 1957 <b>participó en la fundación del grupo El Paso</b>
+                    con otros pintores, escultores y críticos. Con este
+                    grupo <b>se consolidó el Informalismo en España</b>.
+                  </p>
+                  <p>En su trayectoria artística <b>comenzó utilizando un
+                    solo plano en sus cuadros</b>. Sujetaba las telas
+                    metálicas a bastidores de madera o aluminio.
+                    Pronto descubrió que utilizando dos planos daba
+                    movilidad al cuadro y los espacios se multiplicaban.
+                    En <b>1959 introdujo un tablero de madera como
+                    soporte</b> para fijar las mallas metálicas y a comienzos
+                    de la década de los años 60 <b>fue introduciendo
+                        paulatinamente el color</b> en sus cuadros que hasta
+                    entonces se limitaban al blanco y al negro.</p>
+              </div>
+              <img loading="lazy" src="../../../../assets/carru1.jpg" alt="imagen de manuel rivera">
+           </div>
+           <div class="textWrapper rowre mostrar">
+            <img loading="lazy" src="https://res.cloudinary.com/manuel-rivera-website/image/upload/v1627297940/obras%20MR/fotos/carru3_ilprmr.jpg" alt="tela metálica de manuel rivera">
+            <div class="p-Box">
+                <p>Su producción, de contenido unas veces mas lírico
+                    otras mas dramático, <b>continuó evolucionando</b> hacia
+                    planteamientos mas <b>constructivistas</b> .</p>
+                <p><cite>“Tengo una materia en mis manos que sin dejar de
+                    ser materia me permite jugar constantemente con
+                    el espacio y la luz”</cite> dijo el artista. Y explicaba <cite>“ No
+                    busco simplemente un equilibrio de formas y
+                    colores . Necesito algo más. Partir de una idea lírica
+                    o de un dolor, de una emoción”</cite>.</p>
+
+                <p> Manuel Rivera <b>falleció en Madrid en 1995</b>. 
+                    Su <b>obra</b>, <b>reconocida internacionalmente</b>, está
+                    presente en numerosos <b>Museos y Colecciones</b>
+                    como el <b>MOMA</b> y el <b>Guggenheim</b> de Nueva York, la
+                    <b>Tate Gallery</b> y el <b>British Museum</b> de Londres, el
+                    Museo <b>Reina Sofía</b>, el Museo de <b>Arte Moderno de París</b>, el
+                    <b>Stedelijk Museum</b> de Amsterdam, entre otros
+                    muchos.</p>
+            </div>
+          </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row mostrar my-6  justify-content-center">
+        <div class="col-sm-5 d-flex justify-content-center">
+            <div class="marco-movil">
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FManuel-Rivera-159686187421871&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> 
+             </div>
+        </div>
+        <div class="col-sm-5 mt-3 justify-content-center">
+            <h2 class="text-center text-light">Novedades</h2>
+            <h4 class="text-light text-center">Puedes Informarte a cerca de Futuras exposiciones y posts interesantes sobre Manuel Rivera en nuestra página de Facebook.</h4>
+            <h5 class="text-light text-center mt-3" >No olvides que cualquier gestión, duda, o consulta la puedes <b>resolver</b> contactando directamente con nosotros en el enlace de <b>abajo</b>. </h5>
+            <div class="text-center">
+                <button type="button" class="btn-contact mt-3" data-toggle="modal" data-target="#myModal"><i class="fas fa-comment-dots fa-2x"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid mb-3 my-5 seccionObras">
+    <div class="row divHorz">
+        <div class="col-lg-6">
+                <app-swiper-cube *ngIf='mostrarContenidoPesado'  class="mostrar"></app-swiper-cube>
+        </div>
+
+        <div class="col-lg-6" >
+            <div class="swiper-text mostrar">
+                <h1>Una forma distinta de percibir el arte</h1>
+                <p>Hablar de <b>Manuel Rivera</b> (Granada, 1927-Madrid, 1995) es hablar de sus omnipresentes <b>telas metálicas</b> y de la <b>voluntad</b> de un grupo de artistas españoles que a mediados del siglo XX <b>introdujeron en España el arte abstracto y el informalismo.</b> Es, en definitiva, una alusión obligada a la creación del <b>grupo El Paso</b>, del que <b>Rivera fue cofundador</b>.</p>
+                <p>Su <b>éxito</b> fue <b>inmediato</b>. En 1962, el <b>MOMA neoyorquino</b> o el Museo de <b>Arte Contemporáneo de Madrid</b> ya <b>habían incorporado obras de Rivera a sus colecciones</b>. Series como Metamorfosis, Oráculos o Espejos, en que <b>el movimiento y la posición del espectador permiten modificar la propia visión de la obra</b> y reconstruirla a capricho del público, pertenecen a su <b>época dorada.</b></p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<app-swiper *ngIf='mostrarContenidoPesado' class="mostrar"></app-swiper>
+
+

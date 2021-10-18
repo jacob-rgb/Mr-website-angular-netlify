@@ -1,0 +1,32 @@
+
+.mySwiperCube {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    transform: rotateZ(-10deg);
+}
+
+.mySwiperCube .swiper-slide  {
+    background-position: center;
+    background-size: cover;
+    width: 100% !important;
+}
+
+
+@media screen and(max-width:780px) {
+   
+    .mySwiperCube {
+        width: 80%;
+        height: 80%;
+    }
+
+}
+
+@media screen and(max-width:1600px) {
+   
+    .mySwiperCube {
+        width: 70%;
+        height: 70%;
+    }
+
+}

@@ -1,0 +1,25 @@
+<div class="extramargen"></div>
+<div class="container mt-4" (window:scroll)="mostrar? mostrarcontentt() : ''">
+  <h1 class="mb-4 text-center text-light">Telas Metálicas</h1>
+    <div class="card-columns">
+        <div class="card opaco" *ngFor="let obra of obras | paginate: { itemsPerPage: 10,currentPage: p }; index as i">
+          <a href="{{ obra.imagen }}" target="_blank" data-toggle="modal"  [attr.data-target]="['#modal-' + i]"><img class="card-img-top" [src]="obra.imagen" alt="{{ obra.titulo }}"></a>
+          <a class="text-light" href="{{ obra.imagen }}" target="_blank">
+            <div class="card-text-slide">
+              <h5><u>{{ obra.titulo }}</u></h5>
+              <p>Año: {{ obra.year? obra.year : 'Desconocido' }}</p>
+              <p>medidas: {{ obra.medidas ? obra.medidas : 'Desconocido'}} </p>
+              <p>Página en catálogo razonado: {{ obra.descripcion }}</p>
+            </div>
+          </a>
+       </div> 
+    </div>
+    <div class="row justify-content-center">
+        <pagination-controls  
+          previousLabel="Anterior"
+          nextLabel="Siguiente"
+         (pageChange)="cambioDePagina($event)"
+     >
+      </pagination-controls>
+     </div>
+</div>

@@ -1,0 +1,52 @@
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+
+strong {
+    margin: -20px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+div {
+    overflow: hidden;
+}
+
+img {
+    border-radius: 20px ;
+}
+
+.mostrarizquierda {
+    animation: mostrarizquierda 1s;
+}
+@keyframes mostrarizquierda {
+    0% {
+        transform: translateX(-900px);
+    }
+    100% {
+        transform: translateX(0px)
+    }
+}
+
+.mostrarderecha {
+    animation: mostrarderecha 1s;
+}
+@keyframes mostrarderecha {
+    0% {
+        transform: translateX(900px);
+    }
+    100% {
+        transform: translateX(0px)
+    }
+}
+
+
+
+@media screen and(max-width: 736px) {
+    img {
+        max-width: 180px;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,34 @@
+
+<swiper
+  [effect]="'cube'"
+  [autoplay]="{
+    delay: 2000,
+    disableOnInteraction: false
+  }"
+  [grabCursor]="true"
+  [cubeEffect]="{
+    shadow: true,
+    slideShadows: true,
+    shadowOffset: 20,
+    shadowScale: 0.94
+  }"
+  class="mySwiperCube"
+>
+
+      <ng-template class="swiper-slide" swiperSlide>
+          <img src="../../../../assets/La voz de la luz nº 6, 1990.jpeg" />
+      </ng-template>
+      <ng-template class="swiper-slide" swiperSlide>
+          <img src="../../../../assets/Mutación (amar.) 1994.jpeg" />
+      </ng-template>
+      <ng-template class="swiper-slide" swiperSlide>
+          <img src="../../../../assets/Saeta nº1, 1991.jpeg" />
+      </ng-template >
+      <ng-template class="swiper-slide" swiperSlide>
+          <img src="https://i.pinimg.com/originals/48/9e/f2/489ef2065def7449b60d9c7b16e295b4.jpg"/>
+      </ng-template>
+      <ng-template class="swiper-slide" swiperSlide>
+          <img src="https://www.leandro-navarro.com/img/cuadros/Rivera_espejo_exvoto_n1_big.jpg"/>
+      </ng-template>
+
+</swiper>

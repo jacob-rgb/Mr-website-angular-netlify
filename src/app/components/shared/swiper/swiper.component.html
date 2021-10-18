@@ -1,0 +1,19 @@
+<h2 class="text-center my-5 text-light">Videos</h2>
+<div class="swiperCont" *ngIf="show">
+    <swiper
+    [slidesPerView]="1"
+    [pagination]="{
+      type: 'fraction'
+    }"
+    [navigation]="true"
+    class="swiper-container mySwiper"
+  >
+    <ng-template class="swiper-slide" swiperSlide><iframe width="727" height="409" src="https://www.youtube.com/embed/5pDGwqFvPw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ng-template>
+    <ng-template class="swiper-slide" swiperSlide><iframe width="727" height="409" src="https://www.youtube.com/embed/8aC7fr-YsAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ng-template>
+    <ng-template class="swiper-slide" swiperSlide><iframe width="727" height="409" src="https://www.youtube.com/embed/9nHaUyQemJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ng-template>
+    <ng-template class="swiper-slide" swiperSlide><iframe width="727" height="409" src="https://www.youtube.com/embed/uA4EF0oKVfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ng-template>
+    <ng-template class="swiper-slide" swiperSlide><iframe width="727" height="409" src="https://www.youtube.com/embed/9x4Jwitxo78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ng-template>
+    <ng-template class="swiper-slide" swiperSlide><iframe width="727" height="409" src="https://player.vimeo.com/video/510187145"  title="Vimeo Video Player"   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ng-template>
+
+  </swiper>
+</div>

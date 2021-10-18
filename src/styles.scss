@@ -1,0 +1,274 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~swiper/swiper-bundle';
+@import "~swiper/swiper";
+@import "~swiper/components/navigation/navigation";
+
+body, html {
+  margin: 0;
+  overflow-x: hidden !important;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: url('./assets/fondoOscuro.jpg');
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+button {
+  cursor: pointer !important;
+  cursor: -moz-pointer;
+  cursor: -webkit-pointer;
+}
+
+.extramargen {
+  min-height: 70px;
+  position: relative;
+  top: 0;
+}
+
+.background-scroll {
+  background-attachment: scroll !important;
+}
+
+.principal {
+  padding: 0;
+}
+
+p {
+  color: white;
+  font-size: 19px;
+  padding: 8px;
+}
+
+.btn-contact {
+  padding: 20px;
+  background-color: grey;
+  border-radius: 100%;
+  outline: none;
+  border: none;
+}
+
+.btn-contact:hover {
+  transform: scale(1.2);
+}
+
+.animado {
+  opacity: 1 !important;
+}
+
+// mzd- Timeline
+
+mzd-timeline-content {
+    margin: 0 0px;
+    color: white;
+    opacity: 0;
+    transition: all 1.5s;
+  }
+
+
+  mzd-timeline-content:after {
+    display: none;
+  }
+
+// ngx - Pagination
+
+.ngx-pagination {
+    background-color: rgb(39, 37, 37, 0.7);
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .ngx-pagination .current {
+    background: var(--secondary) !important;
+    border-radius: 20px;
+  }
+  
+  .ngx-pagination * {
+    color: white;
+  }
+
+  .ngx-pagination li:hover {
+    color: black !important;
+  }
+
+  
+// Swiper 
+
+
+
+.swiper-container {
+  width: 100vw;
+  position: relative;
+  cursor: grab !important;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  width: 100vw !important;
+
+  /* Center slide text vertically */
+  display: flex !important;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center !important;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center !important;
+}
+
+.swiper-slide iframe {
+  max-width: 100%;
+}
+
+.swiper-pagination {
+  color: white;
+  font-weight: 900;
+}
+
+.swiper-button-prev {
+  left: 20% !important;
+  color: white;
+}
+
+.swiper-button-next {
+  right: 20% !important;
+  color: white;
+}
+
+.swiper-pagination-current {
+  width: 100%;
+}
+
+.swiper-wrapper {
+  margin-bottom: 40px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.mySwiperCube .swiper-slide  {
+  background-position: center;
+  background-size: cover;
+  width:100% !important;
+  height: 100% !important;
+}
+
+  // img Hover Slide 
+  
+  .card {
+    overflow: hidden;
+    position: relative;
+    min-height: 240px;
+  }
+  
+  .card-text-slide {
+    background-color: rgb(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: translateX(600px);
+    transition: transform 500ms ease;
+    z-index: -10;
+  }
+  
+  .card:hover .card-text-slide {
+    transform: translateX(0px);
+    z-index: 1;
+  }
+  
+  .width100 {
+    width: 100% !important;
+  }
+  
+
+// Efecto Loading
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  background-color: rgb(31, 28, 28);
+}
+
+
+.desaparecer {
+  animation: disappearDown 1000ms ;
+  animation-fill-mode: forwards;
+}
+
+// Form Modal
+
+#consulta {
+  width: 100%;
+  min-height: 150px;
+}
+
+ #myModal  .modal-content {
+   background-image: url('./assets/fondo.jpg');
+   background-position: center;
+   background-size: cover;
+  //  background: url('./assets/fondo.jpg') no-repeat center cover ;
+ }
+
+@keyframes disappearDown {
+  from {
+      top: 0;
+  }
+
+  to {
+      top: 200%;
+      display: none;
+  }
+}
+
+
+
+
+
+@media screen and(max-width:780px) {
+    p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .swiper-button-prev {
+      left: 5% !important;
+      color: white;
+    }
+    
+    .swiper-button-next {
+      right: 5% !important;
+      color: white;
+    }
+
+    .imgBoxCapa {
+      margin: 10px;
+    }
+}
