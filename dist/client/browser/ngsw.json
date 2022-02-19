@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1645290271757,
+  "timestamp": 1645290763381,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/index.html",
-        "/main.a5b7c497ffc3e857b535.js",
+        "/main.8f30896ab918d7aef119.js",
         "/manifest.webmanifest",
         "/polyfills.8c151b8375e767ff858f.js",
         "/runtime.0e49e2b53282f40c8925.js",
@@ -72,9 +72,9 @@
     "/assets/inicioHor1.jpg": "8087801536d88be2cf4d6d1738dc0d99ad265e74",
     "/fondo.96095877561079cded2e.jpg": "6f7be1875c66715dcca5b1dcc530324b81f9d93d",
     "/fondoOscuro.2700bab0eb88237518c7.jpg": "606f12d09bef885fea07a37bcab5badbb5f3107c",
-    "/index.html": "a15866d6bd9ca1423252623373fab585f3f37493",
+    "/index.html": "e204620acc7665165e9bd1fba1609c89eaa0daee",
     "/inicioHor1.0d12280ee078a5533d0a.jpg": "8087801536d88be2cf4d6d1738dc0d99ad265e74",
-    "/main.a5b7c497ffc3e857b535.js": "76787445896d730553903be6e7e3c722e398169d",
+    "/main.8f30896ab918d7aef119.js": "95842e0cd50edb9e0eebbb7d48dad2df82481b17",
     "/manifest.webmanifest": "6bd446cf481e91dc7da6926e0d9b5fb2029c63fa",
     "/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
