@@ -1,0 +1,103 @@
+{
+  "configVersion": 1,
+  "timestamp": 1645290271757,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/index.html",
+        "/main.a5b7c497ffc3e857b535.js",
+        "/manifest.webmanifest",
+        "/polyfills.8c151b8375e767ff858f.js",
+        "/runtime.0e49e2b53282f40c8925.js",
+        "/scripts.c35b7bd807e6e6a02aa8.js",
+        "/styles.a9a0844973ab174cb0c5.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/La voz de la luz nº 6, 1990.jpeg",
+        "/assets/Mutación (amar.) 1994.jpeg",
+        "/assets/Saeta nº1, 1991.jpeg",
+        "/assets/carru1.jpg",
+        "/assets/carru2.2.jpg",
+        "/assets/fondo.jpg",
+        "/assets/fondoOscuro.jpg",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/inicioHor1.jpg",
+        "/fondo.96095877561079cded2e.jpg",
+        "/fondoOscuro.2700bab0eb88237518c7.jpg",
+        "/inicioHor1.0d12280ee078a5533d0a.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/La voz de la luz nº 6, 1990.jpeg": "ad382aaedfa61090ffb3603b6e1ec73c41786be5",
+    "/assets/Mutación (amar.) 1994.jpeg": "35fadc16ad3fff5b25a8711e5501e70350fa0067",
+    "/assets/Saeta nº1, 1991.jpeg": "9576c77cd9156711ccd1b12223b81ad1b912c66a",
+    "/assets/carru1.jpg": "0aea4883bc8a085bb13b288914d21c5edf264fb4",
+    "/assets/carru2.2.jpg": "6c5840fa3e4af752ffc37196e3f04b85864d5a34",
+    "/assets/fondo.jpg": "6f7be1875c66715dcca5b1dcc530324b81f9d93d",
+    "/assets/fondoOscuro.jpg": "606f12d09bef885fea07a37bcab5badbb5f3107c",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/inicioHor1.jpg": "8087801536d88be2cf4d6d1738dc0d99ad265e74",
+    "/fondo.96095877561079cded2e.jpg": "6f7be1875c66715dcca5b1dcc530324b81f9d93d",
+    "/fondoOscuro.2700bab0eb88237518c7.jpg": "606f12d09bef885fea07a37bcab5badbb5f3107c",
+    "/index.html": "a15866d6bd9ca1423252623373fab585f3f37493",
+    "/inicioHor1.0d12280ee078a5533d0a.jpg": "8087801536d88be2cf4d6d1738dc0d99ad265e74",
+    "/main.a5b7c497ffc3e857b535.js": "76787445896d730553903be6e7e3c722e398169d",
+    "/manifest.webmanifest": "6bd446cf481e91dc7da6926e0d9b5fb2029c63fa",
+    "/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/scripts.c35b7bd807e6e6a02aa8.js": "c43b6566088862dd966965f5e14d3c1ad9411eee",
+    "/styles.a9a0844973ab174cb0c5.css": "4cc68e67d1b719a12f228719b620ce154707fc3c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
