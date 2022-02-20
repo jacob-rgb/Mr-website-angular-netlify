@@ -1,5 +1,9 @@
 import { Component, Inject, Injectable, PLATFORM_ID } from "@angular/core";
 import { DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { NavigationEnd, Router } from "@angular/router";
+import { environment } from "src/environments/environment";
+
+declare let gtag: (property: string, value: any, configs: any) => {};
 
 @Component({
   selector: 'app-root',
@@ -12,7 +16,15 @@ export class AppComponent {
   loading:boolean = true;
   mostrar: boolean = true;
 
-  constructor(@Inject(DOCUMENT) private document: Document, @Inject(PLATFORM_ID) private platform: Object ) { }
+  constructor(@Inject(DOCUMENT) private document: Document, @Inject(PLATFORM_ID) private platform: Object, public router:Router ) { 
+    this.router.events.subscribe(event => {
+      if( event instanceof NavigationEnd) {
+        gtag('config', environment.googleAnalyticsiD, {
+          page_path: event.urlAfterRedirects
+        });
+      }
+    })
+  }
 
   ngOnInit() {
     if(isPlatformBrowser(this.platform)) {
